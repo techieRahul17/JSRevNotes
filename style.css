@@ -1,0 +1,262 @@
+/*#counterp{
+    color: aqua;
+    display: block;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10em;
+    text-align: center;
+}
+#Buttonsdiv{
+    text-align: center;
+}
+.buttons{
+    background-color: rgb(25, 69, 87);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    border-radius: 4px;
+    border-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+    transition-property: transform;
+}
+.buttons:hover{
+    transform: scale(.9);
+    transition-duration: .5s;
+    background-color: rgb(13, 45, 59);
+}
+*/
+/*
+.buttons{
+    background-color: rgb(25, 69, 87);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    border-radius: 4px;
+    border-style: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buttons:hover{
+    background-color: rgb(13, 45, 59);
+    cursor: pointer;
+    transition-duration: .5s;
+    transform: scale(.9);
+    transition-property: transform;
+}
+#rdn1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+}
+#rdn2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+}
+#rdn3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+}
+ */
+/*
+body{
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(25, 69, 87);
+    text-shadow: 2px 2px black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bolder;
+}
+form{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px black;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(25, 69, 87);
+    transition-duration: .5s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+form:hover{
+    transform: scale(.9);
+    transition-duration: .5s;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 4px 4px black;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(25, 69, 87);
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+#textbox{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(25, 69, 87);
+    transition-duration: .5s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+#tocelsius{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 60px;
+    width: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+#tofahrenheit{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+#toc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 120px;
+    width: 1%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+#tof{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: left;
+    margin-left: 1px;
+    margin-right: 10px;
+    width: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale(.9);
+    transition-duration: .5s;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 4px 4px black;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(25, 69, 87);
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+#result{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: rgb(25, 69, 87);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10%;
+}
+*/
+/*
+#mybox{
+    width: 500px;
+    height: 500px;
+    font-size: 41px;
+    font-family: Constantia, "Times New Roman", Times, serif;
+    font-palette: palegoldenrod;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    background-blend-mode: multiply;
+}
+*/
+#mybutton{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-palette: paleviolet;
+    text-align: center;
+    accent-color: orange;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: cadetblue;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10 px 15px;
+    margin: 15px;
+    shape-rendering:geometricPrecision;
+}
+.enabled{
+    background-color: black;
+    color: crimson;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-palette: paleviolet;
+    text-align: center;
+
+}
