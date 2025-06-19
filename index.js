@@ -803,4 +803,100 @@ mybuttonn.classList.add('enabled');
 mybuttonn.classList.remove('enabled');
 
  */
+/*
 //Rock paper scissor game
+const choices = ['rock', 'paper', 'scissor'];
+const playerdisp = document.getElementById("playerdisp");
+const compdisp = document.getElementById("compdisp");
+const resdisp = document.getElementById("resdisp");
+
+const playerScoreEl = document.getElementById("player-score");
+const computerScoreEl = document.getElementById("computer-score");
+
+let playerScore = 0;
+let computerScore = 0;
+
+function playGame(playerChoice) {
+    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    let result = "";
+
+    if (playerChoice === computerChoice) {
+        result = "Tie";
+    } else {
+        switch (playerChoice) {
+            case 'rock':
+                result = (computerChoice === 'scissor') ? "You Win" : "You Lose";
+                break;
+            case 'paper':
+                result = (computerChoice === 'rock') ? "You Win" : "You Lose";
+                break;
+            case 'scissor':
+                result = (computerChoice === 'paper') ? "You Win" : "You Lose";
+                break;
+        }
+    }
+
+    // Update display
+    playerdisp.textContent = `Player: ${playerChoice}`;
+    compdisp.textContent = `Computer: ${computerChoice}`;
+    resdisp.textContent = `Result: ${result}`;
+
+    // Reset classes
+    resdisp.classList.remove("greentext", "redtext", "tieText");
+
+    // Update score and result style
+    if (result === "You Win") {
+        playerScore++;
+        playerScoreEl.textContent = `Player: ${playerScore}`;
+        resdisp.classList.add("greentext");
+    } else if (result === "You Lose") {
+        computerScore++;
+        computerScoreEl.textContent = `Computer: ${computerScore}`;
+        resdisp.classList.add("redtext");
+    } else {
+        resdisp.classList.add("tieText");
+    }
+}
+*/
+//Image Slider
+/*
+let slideIndex = 0;
+let slides = document.querySelectorAll('.slide');
+let dotsContainer = document.getElementById('dots');
+
+function createDots() {
+    slides.forEach((_, index) => {
+        let dot = document.createElement('span');
+        dot.addEventListener('click', () => showSlides(index));
+        dotsContainer.appendChild(dot);
+    });
+}
+createDots();
+
+let dots = document.querySelectorAll('.dots span');
+
+function showSlides(index) {
+    slideIndex = (index + slides.length) % slides.length;
+
+    const offset = -slideIndex * 100;
+    document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
+
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[slideIndex].classList.add('active');
+}
+
+function plusSlides(n) {
+    showSlides(slideIndex + n);
+}
+
+// Auto-slide every 4 seconds
+setInterval(() => {
+    plusSlides(1);
+}, 4000);
+
+// Initial display
+showSlides(slideIndex);
+*/
+// Callback HELL= Nested callbacks that is a callback within another callback. USe promises + async/wait to avoid callback hell
+//Promises = An object that manages async operations
+//           Wrap a promise object around{async code} "I promise to return a value" new Promise((resolve,reject)->{async code})
